@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+nav {
+  height: 74px;
+  width: 100%;
+  margin-bottom: 30px;
+  background-color: #f0f0f0;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+main {
+  width: 100%;
+  min-height: 70vh;
+}
+
+.navbar {
+  max-width: 1920px;
+  margin-bottom: 30px;
+  height: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar .left-side .logo {
+  padding-left: 15px;
+}
+
+.navbar .right-side {
+  position: absolute;
+  height: 100%;
+  right: 0;
+}
+
+.navbar .right-side ul {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.navbar .right-side ul li {
+  padding: 0 15px;
+  line-height: 74px;
+}
+
+@media (max-width: 740px) {
+  .navbar .right-side {
+    top: 100%;
+    left: 0;
+    height: 0px;
+    overflow: hidden;
+    z-index: 1000;
+  }
+  .navbar .right-side ul {
+    display: block;
+  }
+  .navbar .right-side ul li {
+    text-align: center;
+    font-size: 26px;
+    background-color: lightgray;
+  }
+}
+
+.HamburgerMenu {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 74px;
+  height: 100%;
+  background-image: url("/img/Hamburger_icon.svg.png");
+  background-size: cover;
+}
+
+@media (max-width: 740px) {
+  .HamburgerMenu {
+    margin-right: 15px;
+    display: block;
+  }
+}
+
+.share-link-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 30px 0;
+  margin: 0;
+  list-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.share-link-item li {
+  padding: 10px;
+}
+
+.share-link-item .icon {
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  background-position: center;
+  background-size: contain;
+}
+
+.share-link-item .icon-fb {
+  background-color: #3b5998;
+  background-image: url("https://www.taiwan.net.tw/images/icon/shareicon_facebook.svg");
+  color: #fff;
+}
+
+.share-link-item .icon-fb:hover {
+  background-color: #2a4173;
+}
+
+.share-link-item .icon-tw {
+  background-color: #00aced;
+  background-image: url("https://www.taiwan.net.tw/images/icon/shareicon_twitter.svg");
+}
+
+.share-link-item .icon-tw:hover {
+  background-color: #1197ca;
+}
+
+.share-link-item .icon-plurk {
+  background-color: #c6602b;
+  background-image: url("https://www.taiwan.net.tw/images/icon/shareicon_plurk.svg");
+}
+
+.share-link-item .icon-plurk:hover {
+  background-color: #9c4e25;
+}
+
+.share-link-item .icon-line {
+  background-color: #2cbf13;
+  background-image: url("https://www.taiwan.net.tw/images/icon/shareicon_line.svg");
+}
+
+.share-link-item .icon-line:hover {
+  background-color: #2f961d;
+}
+
+footer {
+  height: 300px;
+  width: 100%;
+  background-color: #f0f0f0;
+}
+/*# sourceMappingURL=01-index.css.map */
