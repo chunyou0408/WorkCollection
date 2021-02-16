@@ -15,6 +15,16 @@
     <title>作品集</title>
 
 
+
+    <style>
+        .next_btn {
+            margin: 30px 30px;
+            border: 1px solid black;
+            background-color: whitesmoke;
+            padding: 5px 20px;
+        }
+    </style>
+
     {{-- CSS --}}
     @yield('css')
 </head>
@@ -32,9 +42,9 @@
             <div class="right-side">
                 <div class="list">
                     <ul>
-                        <li><a href="/01">切版相關</a></li>
-                        <li><a href="/02">JavaScript相關</a></li>
-                        <li><a href="/03">Bootstrap相關</a></li>
+                        <li><a href="/01-layout">切版相關</a></li>
+                        <li><a href="/02-JavaScript">JavaScript相關</a></li>
+                        <li><a href="/03-Bootstrap">Bootstrap相關</a></li>
                         <li><a href="">專題作品</a></li>
                     </ul>
                 </div>
