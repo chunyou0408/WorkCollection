@@ -103,6 +103,18 @@
             </div>
         </div>
 
+        <div class="card col-12 col-md-6 col-lg-4" data-aos="fade-up">
+            <div class="card-header">
+                <h2>Bootstrap排版練習<h2>
+            </div>
+            <a href="/02-JavaScript/Bootstrap" target="_blank" class="hvr-bob">
+                <img src="/img/02-JavaScript/08-Bootstrap/01.png" class="card-img-top" alt="..." width="100%">
+            </a>
+            <div class="card-body">
+                <p class="card-text">課後練習題目</p>
+            </div>
+        </div>
+
 
     </div>
 </div>

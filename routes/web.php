@@ -146,12 +146,24 @@ Route::prefix('/02-JavaScript')->group(function () {
     Route::get('/weatherAPI', function () {
         return view('front.02-JavaScript.07-weatherAPI.weatherAPI');
     });
+    //08-Bootstrap排版練習
+    Route::get('/Bootstrap', function () {
+        return view('front.02-JavaScript.08-Bootstrap.Bootstrap');
+    });
 });
 
-
-//Bootstrap相關
-Route::prefix('/03-Bootstrap')->group(function () {
+//實務經驗
+Route::prefix('/03-work')->group(function () {
     Route::get('/', function () {
-        return view('front.03.01-Bootstrap');
+        return view('front.03-work.03-work');
+    });
+    Route::get('01-inquire', function () {
+        return view('front.03-work.01-inquire.04-inquire');
+    });
+    Route::get('02-common_problem', function () {
+        return view('front.03-work.02-common_problem.05-common_problem');
+    });
+    Route::get('03-contact_us', function () {
+        return view('front.03-work.03-contact_us.06-contact_us');
     });
 });

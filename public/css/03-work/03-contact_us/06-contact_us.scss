@@ -1,0 +1,189 @@
+main{
+    height: auto;
+    margin: auto;
+    font-family: 'Microsoft JhengHei';
+
+    //container
+    .container{
+        @media (max-width: 767px){
+            max-width:600px;
+        }   
+    }
+    
+    //關於我們
+    .title{
+        text-align: center;
+        font-weight: bold;
+
+        letter-spacing: 2px;
+        font-size: 30px;
+        padding-top: 20px;
+        padding-bottom: 71px;
+        margin: 0;
+        @media (max-width: 767px){
+            padding-bottom: 50px;
+        }  
+        @media (max-width: 500px){
+            padding-bottom: 30px;
+        }  
+    }
+    //如果有任何問題，歡迎填寫以下聯絡表單
+    h3{
+        margin-bottom: 30px;
+        padding-left: 40px;
+        letter-spacing: 1.5px;
+        font-weight: bold;
+
+        @media (max-width: 767px){
+            font-size: 24px;
+        }
+        @media (max-width: 540px){
+            padding: 0;
+        }
+
+    }
+    //輸入資料區域
+    form{
+        padding-left: 40px;
+
+        @media (max-width: 540px){
+            padding: 0;
+        }
+
+        
+        .form-group{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            input, textarea{
+                font-size: 18px;
+                width: 100%;
+                height: 38px;
+                @media (max-width: 540px){
+                    width: 100%;
+                };
+            }
+
+            .img_box{
+                margin-left: 20px;
+                width: 100px;
+                height: 50px;
+            }
+
+            #captcha{
+                width: 200px;
+                margin-right: auto;
+                @media (max-width: 400px){
+                    width: 120px;
+                };
+            }
+
+            #content{
+                height: 117px;
+            }
+            #href{
+                margin-left: 16px;
+                @media (max-width: 354px){
+                    margin-top: 5%;
+                    margin-left:0 ;
+                };
+            }
+            label{
+                margin: 0;
+                font-size: 18px;
+            }
+        
+        }
+        
+        
+        
+    }
+
+    //倉庫地點資訊
+    .card{
+        border: 0;
+        text-align: center;
+        margin-bottom: 20px;
+        
+        h5{
+            padding-left: 8px;
+            display: inline-block;
+        }
+        .card-body{
+            padding-top: 0;
+        }
+        .card-title{
+            font-size: 24px;
+            letter-spacing: 1.5px;
+        }
+        .btn{
+            margin-top: 0;
+        }
+
+        ul{
+            padding: 0px;
+            @media (max-width: 768px){
+                margin-bottom: 5px;
+            }
+            li{
+                font-size: 15px;
+                list-style-type :none;
+    
+                padding: 0px;
+                span{
+                    padding-left: 12px;
+                }
+            }
+        }
+    }
+
+    .code_group{
+
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        img{
+            margin: 0px 10px;
+            width: 130px;
+        }
+        
+    }
+
+    //按鈕
+    .btn, .send_btn{
+        display:inline-block;
+        background-color: #033695;
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+
+        border-radius: 0%;
+        padding:0 27px;
+    }
+    .btn{
+        font-size: 18px;
+        padding:0 19px;
+    }
+    
+
+}
+// @media (max-width: 992px){
+
+//     // #send_out{
+//     //     display: flex;
+//     //     justify-content: center;
+//     // }
+//     .container{
+//         .row{
+//            .col-12{
+//                form{
+//                    #send_out{
+//                        display: flex;
+//                        justify-content: center;
+//                    }
+//                }
+//            } 
+//         }
+//     }
+// }

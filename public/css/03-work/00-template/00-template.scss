@@ -1,0 +1,359 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+//nav
+.navbar-expand-custom {
+    position: relative;
+    padding: 0px;
+
+    @media (min-width: 1501px) {
+        height: 120px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        padding-left: 170px;
+    }
+
+    &.active {
+        background-color: #023985;
+        justify-content: center;
+        // line-height: 100px;
+
+        @media (max-width: 360px) {
+            justify-content: flex-start;
+        }
+    }
+
+    #center_logo {
+        position: absolute;
+        background-image: url('/img/03-work/00-tempelate/01-nav/center_logo.png');
+        width: 145px;
+        height: 145px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        top: 0px;
+        left: calc(50% - 72.5px);
+
+        z-index: 99;
+
+        @media (max-width:1700px) {
+            display:none;
+        }
+    }
+
+    //logo-name
+    .navbar-brand-wrap {
+
+        .navbar-brand {
+            //藍字logo name
+            img {
+
+                @media (min-width: 320px) {
+                    width: 230px;
+                }
+
+                @media (min-width: 500px) {
+                    width: 286px;
+                }
+
+                @media (min-width: 768px) {
+                    width: 350px;
+                }
+
+                @media (min-width: 1501px) {
+                    width: 460px;
+                }
+                &.active {
+                    display: none;
+                }
+            }
+
+        }
+    }
+
+    //nav右邊1500px以下出現button
+    .navbar-toggler {
+        position: absolute;
+        top: 20px;
+        right: 0px;
+        //外框調整
+
+
+        color: rgba(0, 0, 0, 0) !important;
+        border:none !important;
+
+        @media (min-width: 1501px) {
+            display: none;
+        }
+
+        .navbar-toggler-icon {
+            background-image: url('/img/03-work/00-tempelate/01-nav/list.svg');
+
+            &.active {
+                background-image: url('/img/03-work/00-tempelate/01-nav/button_cross.png');
+            }
+        }
+    }
+
+    //nav右邊link區域
+    .navbar-collapse {
+        font-size: 30px;
+        font-weight: 600;
+
+        border-top:1px solid white;
+        margin-left: auto;
+
+        flex-grow: 0;
+        justify-content: flex-end;
+
+        @media (max-width: 1500px) {
+            margin-right: 0 !important;
+        }
+
+        @media (min-width: 1501px) {
+            display: flex !important;
+        }
+        //ul
+        .navbar-nav {
+            // border-top:3px solid white;
+
+            @media (min-width: 1501px) {
+                flex-direction: row;
+            }
+
+            @media (max-width: 1500px) {
+                background-color: #023985;
+            }
+
+            //li a
+            .nav-link {
+                @media (min-width: 1501px) {
+                    padding-right: .5rem;
+                    padding-left: .5rem;
+                }
+
+                // &:nth-child(1) {
+                //     border-top:3px solid white;
+                // }
+
+                color: #023985;
+                    @media (max-width: 1500px) {
+                        color: #ffffff;
+                        display: flex;
+                        justify-content: center;
+                    }
+
+                &:hover {
+                    color: #007BC4;
+                    @media (max-width: 1500px) {
+                        color: #808080;
+                    }
+                }
+
+                .line{
+                    margin: 0;
+                    width: 95%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    border-bottom: 1px solid white;
+                    padding-bottom: 10px;
+
+                    @media (min-width:1501px) {
+                        width: 100%;
+                    }
+
+
+
+                }
+                img {
+                    width: 27px;
+                    height: 27px;
+
+                    @media (max-width: 1500px) {
+                        margin-top: 10px;
+                        margin-right: 5px;
+                    }
+
+                    @media (min-width: 1501px) {
+                        margin-bottom: 6px;
+                    }
+                }
+
+                span {
+
+                    display: block;
+
+                    @media (min-width:1501px) {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 首頁影片區
+.banner_video_wrap {
+    width: 100%;
+    display: none;
+    .video {
+        background-image: url('/img/03-work/00-tempelate/03-main/banner_video.jpg');
+        width:100%;
+        height:0px;
+        padding-bottom: 67%;
+        position: relative;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        .video_down_decoration {
+            background-image: url('/img/03-work/00-tempelate/01-nav/photo_down_decoration.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: bottom;
+            width: 100%;
+            height: 50%;
+            position: absolute;
+            left: 0px;
+            bottom: -1px;
+        }
+    }
+}
+// 內容頁圖片區
+.banner_photo_wrap {
+    flex-direction: column;
+    display: none;
+    .photo {
+        background-image: url('/img/03-work/00-tempelate/01-nav/photo.jpg');
+        height:0;
+        padding-bottom: 67%;
+        position: relative;
+        background-position: center;
+        background-repeat: no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        background-size:cover;
+        margin-bottom: -8%;
+        .photo_down_decoration {
+            background-image: url('/img/03-work/00-tempelate/01-nav/photo_down_decoration.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: bottom;
+            width: 100%;
+            height: 50%;
+            position: absolute;
+            left: 0px;
+            bottom: 0px;
+        }
+    }
+    >img {
+        width: 230px;
+        margin: 0px auto;
+        position: relative;
+        z-index: 1;
+        @media (max-width:500px) {
+            width: 115px;
+        }
+    }
+}
+// 視窗右邊我要詢價固定區
+.view_fixed_ask {
+    width: 180px;
+    position: fixed;
+    right: 0;
+    top: calc(50% - 120px);
+    z-index: 3;
+
+    img {
+        width: 100%;
+
+        @media (max-width: 1500px) {
+            width: 85%;
+        }
+        @media (max-width: 1024px) {
+            width: 65%;
+        }
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+}
+
+
+footer {
+    // 頁尾資訊區
+    .footer_info {
+        .container {
+            .row {
+                padding: 45px 0;
+
+                //資訊區塊
+                .margin_bottom {
+                    @media (min-width: 320px) {
+                        margin-bottom: 50px;
+                        padding: 0 20px;
+                    }
+
+                    @media (min-width: 576px) {
+                        padding: 0;
+
+                        &:nth-child(1), &:nth-child(2) {
+                            margin-bottom: 100px;
+                        }
+                    }
+
+                    .logo_name {
+                        margin-bottom: 15px;
+                    }
+
+                    .footer_title {
+                        font-size: 24px;
+                        font-weight: bold;
+                        margin-bottom: 25px;
+                    }
+
+                    ul {
+                        margin: 0;
+                        padding: 0;
+                        list-style-type: none;
+
+                        li {
+                            font-size: 14px;
+                            font-weight: bold;
+                            margin-bottom: 15px;
+
+                            vertical-align: middle;
+
+                            a {
+                                color: black;
+                            }
+
+                            i {
+                                margin-right: 5px;
+                                img {
+                                    vertical-align: text-bottom;
+                                }
+                            }
+
+                        }
+                    }
+
+                    .barcode_area {
+                        .barcode:nth-child(1) {
+                            @media (min-width: 320px) {
+                                margin: -3px 0 0 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

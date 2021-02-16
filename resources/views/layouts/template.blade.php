@@ -44,8 +44,8 @@
                     <ul>
                         <li><a href="/01-layout">切版相關</a></li>
                         <li><a href="/02-JavaScript">JavaScript相關</a></li>
-                        <li><a href="/03-Bootstrap">Bootstrap相關</a></li>
-                        <li><a href="">專題作品</a></li>
+                        <li><a href="/03-work">實務切版</a></li>
+                        <li><a href="https://yenpasture.herokuapp.com/" target="_blank">專題作品(後端)</a></li>
                     </ul>
                 </div>
             </div>
