@@ -110,6 +110,10 @@ Route::prefix('/01-layout')->group(function () {
     Route::get('/microsoft', function () {
         return view('front.01-layout.06-microsoft.00-microsoft');
     });
+    //07-Bootstrap排版練習
+    Route::get('/Bootstrap', function () {
+        return view('front.01-layout.07-bootstrap.bootstrap');
+    });
 });
 
 
@@ -145,10 +149,6 @@ Route::prefix('/02-JavaScript')->group(function () {
     //07-天氣api
     Route::get('/weatherAPI', function () {
         return view('front.02-JavaScript.07-weatherAPI.weatherAPI');
-    });
-    //08-Bootstrap排版練習
-    Route::get('/Bootstrap', function () {
-        return view('front.02-JavaScript.08-bootstrap.bootstrap');
     });
 });
 

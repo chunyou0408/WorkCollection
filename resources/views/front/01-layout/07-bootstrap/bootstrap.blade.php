@@ -19,7 +19,7 @@
 
         .parallax_img {
             height: 100vh;
-            background-image: url('https://www.xoer.cc/wp-content/uploads/2019/04/9UdCbD165107_938641.jpg');
+            background-image: url('/img/01-layout/07-Bootsrap/parallax.jpg');
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
