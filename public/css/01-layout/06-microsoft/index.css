@@ -123,6 +123,7 @@ width: 100%;
 }
 
 .bannerimgbox{
+    width: 100%;
     display: flex;
 
 }
