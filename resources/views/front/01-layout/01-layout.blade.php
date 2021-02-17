@@ -100,7 +100,7 @@
                 <h2>Bootstrap排版練習<h2>
             </div>
             <a href="/01-layout/Bootstrap" target="_blank" class="hvr-pop">
-                <img src="/img/01-layout/07-Bootstrap/01.png" class="card-img-top" alt="..." width="100%">
+                <img src="/img/01-layout/07-bootstrap/01.png" class="card-img-top" alt="..." width="100%">
             </a>
             <div class="card-body">
                 <p class="card-text">課後練習題目</p>
