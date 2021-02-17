@@ -17,6 +17,10 @@
             margin: 0;
         }
 
+        .card-text {
+            text-align: justify;
+        }
+
         .parallax_img {
             height: 100vh;
             background-image: url('/img/01-layout/07-bootstrap/parallax.jpg');
@@ -92,16 +96,13 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="/img/01-layout/07-bootstrap/banner01.jpg"
-                    class="d-block w-100" alt="...">
+                <img src="/img/01-layout/07-bootstrap/banner01.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="/img/01-layout/07-bootstrap/banner02.jpg"
-                    class="d-block w-100" alt="...">
+                <img src="/img/01-layout/07-bootstrap/banner02.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="/img/01-layout/07-bootstrap/banner03.jpg"
-                    class="d-block w-100" alt="...">
+                <img src="/img/01-layout/07-bootstrap/banner03.jpg" class="d-block w-100" alt="...">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -118,35 +119,34 @@
         <div class="row">
             <div class="col-lg-4 mb-5 mb-lg-0 w-100">
                 <div class="card">
-                    <img src="/img/01-layout/07-bootstrap/card01.jpg" class="card-img-top"
-                        alt="...">
+                    <img src="/img/01-layout/07-bootstrap/card01.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <h3 class="card-title">蜘蛛人</h3>
+                        <p class="card-text">蜘蛛人是漫威漫畫的超級英雄，本名為彼得·班傑明·帕克（Peter Benjamin Parker），漫威旗下最受歡迎的超級英雄。</p>
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                            Launch demo modal
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal01">
+                            詳細點擊
                         </button>
 
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                        <div class="modal fade" id="exampleModal01" tabindex="-1" role="dialog"
                             aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                        <h5 class="modal-title" id="exampleModalLabel">蜘蛛人</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        ...
+                                        <img src="/img/01-layout/07-bootstrap/card01.jpg" class="card-img-top"
+                                            alt="...">
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
                                             data-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                        {{-- <button type="button" class="btn btn-primary">Save changes</button> --}}
                                     </div>
                                 </div>
                             </div>
@@ -157,35 +157,34 @@
 
             <div class="col-lg-4 mb-5 mb-lg-0 w-100">
                 <div class="card">
-                    <img src="/img/01-layout/07-bootstrap/card02.jpg"
-                        class="card-img-top" alt="...">
+                    <img src="/img/01-layout/07-bootstrap/card02.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <h3 class="card-title">美國隊長</h3>
+                        <p class="card-text">美國隊長（英語：Captain America），本名為史蒂芬·羅傑斯（Steven Rogers），是出現在漫威漫畫中的虛構超級英雄。</p>
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                            Launch demo modal
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal02">
+                            詳細點擊
                         </button>
 
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                        <div class="modal fade" id="exampleModal02" tabindex="-1" role="dialog"
                             aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                        <h5 class="modal-title" id="exampleModalLabel">美國隊長</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        ...
+                                        <img src="/img/01-layout/07-bootstrap/card02.jpg" class="card-img-top"
+                                            alt="...">
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
                                             data-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                        {{-- <button type="button" class="btn btn-primary">Save changes</button> --}}
                                     </div>
                                 </div>
                             </div>
@@ -196,35 +195,35 @@
 
             <div class="col-lg-4 mb-5 mb-lg-0 w-100">
                 <div class="card">
-                    <img src="/img/01-layout/07-bootstrap/card03.jpg" class="card-img-top"
-                        alt="...">
+                    <img src="/img/01-layout/07-bootstrap/card03.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <h3 class="card-title">浩克</h3>
+                        <p class="card-text">浩克（英語：The Hulk），本名布魯斯·班納（Bruce Banner），在意外受自己製造出的伽瑪炸彈（Gamma
+                            Bomb）放射線污染後變成了名為浩克的憤怒怪物。</p>
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                            Launch demo modal
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal03">
+                            詳細點擊
                         </button>
 
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                        <div class="modal fade" id="exampleModal03" tabindex="-1" role="dialog"
                             aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                        <h5 class="modal-title" id="exampleModalLabel">浩克</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        ...
+                                        <img src="/img/01-layout/07-bootstrap/card03.jpg" class="card-img-top"
+                                            alt="...">
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
                                             data-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                        {{-- <button type="button" class="btn btn-primary">Save changes</button> --}}
                                     </div>
                                 </div>
                             </div>
@@ -242,24 +241,22 @@
     <section class="py-5">
         <div class="container">
 
-            <h1 class="text-center mb-3">我是標題</h1>
+            <h1 class="text-center mb-3">索爾與洛基</h1>
             <div class="row no-gutters">
                 <div class="col-lg-6 ">
-                    <img src="/img/01-layout/07-bootstrap/Thor.jpg"
-                        alt="" width="100%">
+                    <img src="/img/01-layout/07-bootstrap/Thor.jpg" alt="" width="100%">
                 </div>
                 <div class="col-lg-6 d-flex mb-5 mb-lg-0 bgc_lightgray align-items-center bgc_lightgray">
-                    <span class="">
-                        文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1文字1
+                    <span class="text-justify">
+                        雷神索爾（英語：Thor）是漫威漫畫旗下的一位超級英雄角色，最先出現於《神秘之旅》第83期（1962年8月）。雷神索爾的原形為北歐神話中的索爾，是「戰神」奧丁之子。
                     </span>
                 </div>
                 <div class="col-lg-6  order-lg-1">
-                    <img src="/img/01-layout/07-bootstrap/Loki.jpg"
-                        alt="" width="100%">
+                    <img src="/img/01-layout/07-bootstrap/Loki.jpg" alt="" width="100%">
                 </div>
                 <div class="col-lg-6 d-flex align-items-center bgc_lightgray">
-                    <span class="">
-                        文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2文字2
+                    <span class="text-justify">
+                        洛基（英語：Loki），美國《漫威漫畫》（舊譯驚奇漫畫）創造的虛擬漫畫角色，是雷神索爾的領養兄弟，也是一個超級反派。喜愛魔法又愛引起事端的洛基因此被稱為「謊言與惡作劇之神」。
                     </span>
                 </div>
             </div>
@@ -273,14 +270,14 @@
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-        crossorigin="anonymous"></script>
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-        crossorigin="anonymous"></script>
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
 
 </body>
 
