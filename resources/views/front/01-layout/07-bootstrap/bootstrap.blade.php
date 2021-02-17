@@ -19,7 +19,7 @@
 
         .parallax_img {
             height: 100vh;
-            background-image: url('/img/01-layout/07-Bootsrap/parallax.jpg');
+            background-image: url('/img/01-layout/07-bootstrap/parallax.jpg');
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
@@ -92,15 +92,15 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="https://s2.best-wallpaper.net/wallpaper/1920x1080/1206/Iron-Man_1920x1080.jpg"
+                <img src="/img/01-layout/07-bootstrap/banner01.jpg"
                     class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="https://s2.best-wallpaper.net/wallpaper/1920x1080/1205/The-Avengers-2012-Iron-Man_1920x1080.jpg"
+                <img src="/img/01-layout/07-bootstrap/banner02.jpg"
                     class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="https://www.10wallpaper.com/wallpaper/1920x1080/1811/Iron_Man_2018_American_Superhero_Movie_1920x1080.jpg"
+                <img src="/img/01-layout/07-bootstrap/banner03.jpg"
                     class="d-block w-100" alt="...">
             </div>
         </div>
@@ -118,7 +118,7 @@
         <div class="row">
             <div class="col-lg-4 mb-5 mb-lg-0 w-100">
                 <div class="card">
-                    <img src="https://imgs.gvm.com.tw/upload/gallery/20190524/61108_01.jpg" class="card-img-top"
+                    <img src="/img/01-layout/07-bootstrap/card01.jpg" class="card-img-top"
                         alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -157,7 +157,7 @@
 
             <div class="col-lg-4 mb-5 mb-lg-0 w-100">
                 <div class="card">
-                    <img src="https://i1.wp.com/popbee.com/image/2019/05/avengers-captain-america-and-sharon-carter-love-story-living-together-delected-scene-1.jpg?quality=95&"
+                    <img src="/img/01-layout/07-bootstrap/card02.jpg"
                         class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -196,7 +196,7 @@
 
             <div class="col-lg-4 mb-5 mb-lg-0 w-100">
                 <div class="card">
-                    <img src="https://img.ltn.com.tw/Upload/ent/page/800/2017/07/16/php3j2qbi.jpg" class="card-img-top"
+                    <img src="/img/01-layout/07-bootstrap/card03.jpg" class="card-img-top"
                         alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -245,7 +245,7 @@
             <h1 class="text-center mb-3">我是標題</h1>
             <div class="row no-gutters">
                 <div class="col-lg-6 ">
-                    <img src="https://www.gamewikia.com/uploads/2018/05/08/cover.1280.720.1.1-a5df404f5897e242661031c1cb3b2274.jpg"
+                    <img src="/img/01-layout/07-bootstrap/Thor.jpg"
                         alt="" width="100%">
                 </div>
                 <div class="col-lg-6 d-flex mb-5 mb-lg-0 bgc_lightgray align-items-center bgc_lightgray">
@@ -254,7 +254,7 @@
                     </span>
                 </div>
                 <div class="col-lg-6  order-lg-1">
-                    <img src="https://news.agentm.tw/wp-content/uploads/5cd06692021b4c5411542146-750-458-%E6%8B%B7%E8%B2%9D.jpg"
+                    <img src="/img/01-layout/07-bootstrap/Loki.jpg"
                         alt="" width="100%">
                 </div>
                 <div class="col-lg-6 d-flex align-items-center bgc_lightgray">
