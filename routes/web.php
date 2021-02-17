@@ -101,18 +101,24 @@ Route::prefix('/01-layout')->group(function () {
         return view('front.01-layout.04-RWD.00-RWD');
     });
 
-    //05-facebook
-    Route::get('/facebook', function () {
-        return view('front.01-layout.05-facebook.00-facebook');
+    //05-facebook仿切
+    Route::get('/flex', function () {
+        return view('front.01-layout.05-flex.00-flex');
     });
 
-    //06-microsoft
-    Route::get('/microsoft', function () {
-        return view('front.01-layout.06-microsoft.00-microsoft');
+    //06-facebook仿切
+    Route::get('/facebook', function () {
+        return view('front.01-layout.06-facebook.00-facebook');
     });
-    //07-Bootstrap排版練習
+
+    //07-microsoft仿切
+    Route::get('/microsoft', function () {
+        return view('front.01-layout.07-microsoft.00-microsoft');
+    });
+
+    //08-Bootstrap排版練習
     Route::get('/Bootstrap', function () {
-        return view('front.01-layout.07-bootstrap.bootstrap');
+        return view('front.01-layout.08-bootstrap.bootstrap');
     });
 });
 

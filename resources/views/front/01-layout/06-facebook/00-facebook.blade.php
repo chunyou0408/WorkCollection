@@ -86,7 +86,7 @@
             width: 30px;
             border: 0px solid black;
             border-radius: 50%;
-            background-image: url('/img/01-la/05-facebook/黑白熊icon.jpg');
+            background-image: url('/img/01-layout/06-facebook/黑白熊icon.jpg');
             background-size: cover;
             background-position: center;
         }
@@ -154,7 +154,7 @@
             width: 150px;
             border: 3px solid white;
             border-radius: 50%;
-            background-image: url('/img/01-layout/05-facebook/黑白熊icon.jpg');
+            background-image: url('/img/01-layout/06-facebook/黑白熊icon.jpg');
             background-size: cover;
             background-position: center;
             position: relative;
@@ -237,7 +237,7 @@
     <div class="nav-bar">
         <!-- 導覽列第一區 /FB圖片 文字輸入欄位-->
         <div class="nav-bar-1">
-            <div class="img01"><img src="/img/01-layout/05-facebook/FBICON.jpg" width=40px height=40px alt=""></div>
+            <div class="img01"><img src="/img/01-layout/06-facebook/FBICON.jpg" width=40px height=40px alt=""></div>
             <input id="text01" type="text" value="Monokuma">
         </div>
         <!-- 導覽列第二區 /大頭貼 名字 首頁 尋找朋友-->
@@ -249,11 +249,11 @@
         </div>
         <!-- 導覽列第三區 /小按鈕-->
         <div class="nav-bar-3">
-            <div class="img01"><img src="/img/01-layout/05-facebook/FB_navbar朋友.jpg" width=40px height=40px alt=""></div>
-            <div class="img02"><img src="/img/01-layout/05-facebook/FB_navbar訊息.jpg" width=40px height=40px alt=""></div>
-            <div class="img03"><img src="/img/01-layout/05-facebook/FB_navbar地球.jpg" width=40px height=40px alt=""></div>
-            <div class="img04"><img src="/img/01-layout/05-facebook/FB_navbar問號.jpg" width=40px height=40px alt=""></div>
-            <div class="img05"><img src="/img/01-layout/05-facebook/FB_navbar下箭頭.jpg" width=40px height=40px alt=""></div>
+            <div class="img01"><img src="/img/01-layout/06-facebook/FB_navbar朋友.jpg" width=40px height=40px alt=""></div>
+            <div class="img02"><img src="/img/01-layout/06-facebook/FB_navbar訊息.jpg" width=40px height=40px alt=""></div>
+            <div class="img03"><img src="/img/01-layout/06-facebook/FB_navbar地球.jpg" width=40px height=40px alt=""></div>
+            <div class="img04"><img src="/img/01-layout/06-facebook/FB_navbar問號.jpg" width=40px height=40px alt=""></div>
+            <div class="img05"><img src="/img/01-layout/06-facebook/FB_navbar下箭頭.jpg" width=40px height=40px alt=""></div>
         </div>
 
 

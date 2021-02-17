@@ -73,10 +73,22 @@
 
         <div class="card col-12 col-md-6 col-lg-4" data-aos="fade-right">
             <div class="card-header">
+                <h2>flex練習<h2>
+            </div>
+            <a href="/01-layout/flex" target="_blank" class="hvr-pop">
+                <img src="/img/01-layout/05-flex/01.png" class="card-img-top" alt="..." width="100%">
+            </a>
+            <div class="card-body">
+                <p class="card-text">課後練習題目</p>
+            </div>
+        </div>
+
+        <div class="card col-12 col-md-6 col-lg-4" data-aos="fade-right">
+            <div class="card-header">
                 <h2>facebook仿切練習<h2>
             </div>
             <a href="/01-layout/facebook" target="_blank" class="hvr-pop">
-                <img src="/img/01-layout/05-facebook/01.png" class="card-img-top" alt="..." width="100%">
+                <img src="/img/01-layout/06-facebook/01.png" class="card-img-top" alt="..." width="100%">
             </a>
             <div class="card-body">
                 <p class="card-text">課後練習題目</p>
@@ -88,7 +100,7 @@
                 <h2>microsoft仿切練習RWD<h2>
             </div>
             <a href="/01-layout/microsoft" target="_blank" class="hvr-pop">
-                <img src="/img/01-layout/06-microsoft/01.png" class="card-img-top" alt="..." width="100%">
+                <img src="/img/01-layout/07-microsoft/01.png" class="card-img-top" alt="..." width="100%">
             </a>
             <div class="card-body">
                 <p class="card-text">課後練習題目</p>
@@ -100,7 +112,7 @@
                 <h2>Bootstrap排版練習<h2>
             </div>
             <a href="/01-layout/Bootstrap" target="_blank" class="hvr-pop">
-                <img src="/img/01-layout/07-bootstrap/01.png" class="card-img-top" alt="..." width="100%">
+                <img src="/img/01-layout/08-bootstrap/01.png" class="card-img-top" alt="..." width="100%">
             </a>
             <div class="card-body">
                 <p class="card-text">課後練習題目</p>

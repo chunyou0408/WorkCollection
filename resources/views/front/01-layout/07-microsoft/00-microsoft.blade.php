@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="SHORTCUT ICON" href="https://c.s-microsoft.com/favicon.ico?v2" type="image/x-icon" />
-    <link rel="stylesheet" href="{{ asset('css/01-layout/06-microsoft/index.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/01-layout/07-microsoft/index.css') }}">
 </head>
 
 
@@ -20,7 +20,7 @@
                     <li>
                         <a href="">
                             <div class="logo_box">
-                                <img class="logoimg" src="{{ asset('/img/01-layout/06-microsoft/logo/RE1Mu3b.png')}}"
+                                <img class="logoimg" src="{{ asset('/img/01-layout/07-microsoft/logo/RE1Mu3b.png')}}"
                                     alt="">
                             </div>
                         </a>
@@ -103,9 +103,9 @@
             <div class="banner">
                 <div class="bannerimgbox">
                     <!-- ba01(大) ba02(小) 設定 display: none; 顯示或不顯示 , 更換圖片用-->
-                    <img class="ba01" src="{{ asset('/img/01-layout/06-microsoft/banner/RE4GiWZ.png')}}" alt=""
+                    <img class="ba01" src="{{ asset('/img/01-layout/07-microsoft/banner/RE4GiWZ.png')}}" alt=""
                         width="100%">
-                    <img class="ba02" src="{{ asset('/img/01-layout/06-microsoft/banner/RE4GiWZ (1).png')}}" alt=""
+                    <img class="ba02" src="{{ asset('/img/01-layout/07-microsoft/banner/RE4GiWZ (1).png')}}" alt=""
                         width="100%">
                 </div>
                 <div class="bannertextbox">
@@ -125,7 +125,7 @@
                     <div class="botton">
                         <a href="">
                             <div class="img-box"><img class="row1img"
-                                    src="{{ asset('/img/01-layout/06-microsoft/btn/RE4sQDc.png')}}" alt=""></div>
+                                    src="{{ asset('/img/01-layout/07-microsoft/btn/RE4sQDc.png')}}" alt=""></div>
                             <p>選擇您的 Microsoft 365</p>
                         </a>
 
@@ -134,14 +134,14 @@
                     <div class="botton">
                         <a href="">
                             <div class="img-box"><img class="row1img"
-                                    src="{{ asset('/img/01-layout/06-microsoft/btn/RE4pndL.webp')}}" alt=""></div>
+                                    src="{{ asset('/img/01-layout/07-microsoft/btn/RE4pndL.webp')}}" alt=""></div>
                             <p>選購 Surface 裝置</p>
                         </a>
                     </div>
                     <div class="botton">
                         <a href="">
                             <div class="img-box"><img class="row1img"
-                                    src="{{ asset('/img/01-layout/06-microsoft/btn/RE4pkvE.png')}}" alt=""></div>
+                                    src="{{ asset('/img/01-layout/07-microsoft/btn/RE4pkvE.png')}}" alt=""></div>
                             <p>選購 Windows 10</p>
                         </a>
                     </div>
@@ -156,7 +156,7 @@
                         <div class="btn">
                             <a href="">
                                 <div class="imgbox img1-1">
-                                    <img src="{{ asset('/img/01-layout/06-microsoft/btn/RE4GyCi_11.webp')}}" alt=""
+                                    <img src="{{ asset('/img/01-layout/07-microsoft/btn/RE4GyCi_11.webp')}}" alt=""
                                         width="100%">
                                 </div>
                                 <h3>每一刻都重要</h3>
@@ -167,7 +167,7 @@
                         <div class="btn">
                             <a href="">
                                 <div class="imgbox img1-2">
-                                    <img src="{{ asset('/img/01-layout/06-microsoft/btn/RE4Gi17_12.webp')}}" alt=""
+                                    <img src="{{ asset('/img/01-layout/07-microsoft/btn/RE4Gi17_12.webp')}}" alt=""
                                         width="100%">
                                 </div>
                                 <h3>Microsoft 365</h3>
@@ -184,7 +184,7 @@
                         <div class="btn">
                             <a href="">
                                 <div class="imgbox img1-3">
-                                    <img src="{{ asset('/img/01-layout/06-microsoft/btn/RE4GyBh_13.webp')}}" alt=""
+                                    <img src="{{ asset('/img/01-layout/07-microsoft/btn/RE4GyBh_13.webp')}}" alt=""
                                         width="100%">
                                 </div>
                                 <h3>Xbox Game Pass Ultimate</h3>
@@ -195,7 +195,7 @@
                         <div class="btn">
                             <a href="">
                                 <div class="imgbox img1-4">
-                                    <img src="{{ asset('/img/01-layout/06-microsoft/btn/RE4rzE2_14.jfif')}}" alt=""
+                                    <img src="{{ asset('/img/01-layout/07-microsoft/btn/RE4rzE2_14.jfif')}}" alt=""
                                         width="100%">
                                 </div>
                                 <h3>全新 Microsoft Edge 簡介</h3>
@@ -209,9 +209,9 @@
 
             <div class="banner bannerpatop">
                 <div class="bannerimgbox">
-                    <img class="ba01" src="{{ asset('/img/01-layout/06-microsoft/banner/RE4CpMc.png')}}" alt=""
+                    <img class="ba01" src="{{ asset('/img/01-layout/07-microsoft/banner/RE4CpMc.png')}}" alt=""
                         width="100%">
-                    <img class="ba02" src="{{ asset('/img/01-layout/06-microsoft/banner/RE4CpMc (1).png')}}" alt=""
+                    <img class="ba02" src="{{ asset('/img/01-layout/07-microsoft/banner/RE4CpMc (1).png')}}" alt=""
                         width="100%">
                 </div>
                 <div class="bannertextbox">
@@ -232,7 +232,7 @@
                     <div class="btns_left">
                         <div class="btn"><a href="">
                                 <div class="imgbox img1-5">
-                                    <img src="{{ asset('/img/01-layout/06-microsoft/btn/RE4HCqV_15.webp')}}" alt=""
+                                    <img src="{{ asset('/img/01-layout/07-microsoft/btn/RE4HCqV_15.webp')}}" alt=""
                                         width="100%">
                                 </div>
                                 <h3>適用於商務的 Surface</h3>
@@ -243,7 +243,7 @@
 
                         <div class="btn"><a href="">
                                 <div class="imgbox img1-6">
-                                    <img src="{{ asset('/img/01-layout/06-microsoft/btn/RE4E4rT_16.webp')}}" alt=""
+                                    <img src="{{ asset('/img/01-layout/07-microsoft/btn/RE4E4rT_16.webp')}}" alt=""
                                         width="100%">
                                 </div>
                                 <h3>Microsoft 365 商務版</h3>
@@ -255,7 +255,7 @@
                     <div class="btns_right">
                         <div class="btn"><a href="">
                                 <div class="imgbox img1-7">
-                                    <img src="{{ asset('/img/01-layout/06-microsoft/btn/RE4DfTp_17.webp')}}" alt=""
+                                    <img src="{{ asset('/img/01-layout/07-microsoft/btn/RE4DfTp_17.webp')}}" alt=""
                                         width="100%">
                                 </div>
                                 <h3>工作的復原力</h3>
@@ -266,7 +266,7 @@
 
                         <div class="btn"><a href="">
                                 <div class="imgbox img1-8">
-                                    <img src="{{ asset('/img/01-layout/06-microsoft/btn/RE4rzs9_18.jfif')}}" alt=""
+                                    <img src="{{ asset('/img/01-layout/07-microsoft/btn/RE4rzs9_18.jfif')}}" alt=""
                                         width="100%">
                                 </div>
                                 <h3>建立線上教室</h3>
@@ -282,9 +282,9 @@
                     <h3 style="display: inline;">關注 Microsoft</h3>
                 </samp>
                 <div class="icon"><a target="_blank" href="https://www.facebook.com/MicrosoftTaiwan/"><img
-                            src="{{ asset('/img/01-layout/06-microsoft/svg/facebook.svg')}}" alt=""></a></div>
+                            src="{{ asset('/img/01-layout/07-microsoft/svg/facebook.svg')}}" alt=""></a></div>
                 <div class="icon"><a target="_blank" href="https://www.youtube.com/user/MicrosoftTaiwan"><img
-                            src="{{ asset('/img/01-layout/06-microsoft/svg/youtube.svg')}}" alt=""></a></div>
+                            src="{{ asset('/img/01-layout/07-microsoft/svg/youtube.svg')}}" alt=""></a></div>
             </div>
 
         </div>

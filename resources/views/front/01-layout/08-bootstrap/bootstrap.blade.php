@@ -23,7 +23,7 @@
 
         .parallax_img {
             height: 100vh;
-            background-image: url('/img/01-layout/07-bootstrap/parallax.jpg');
+            background-image: url('/img/01-layout/08-bootstrap/parallax.jpg');
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
@@ -96,13 +96,13 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="/img/01-layout/07-bootstrap/banner01.jpg" class="d-block w-100" alt="...">
+                <img src="/img/01-layout/08-bootstrap/banner01.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="/img/01-layout/07-bootstrap/banner02.jpg" class="d-block w-100" alt="...">
+                <img src="/img/01-layout/08-bootstrap/banner02.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="/img/01-layout/07-bootstrap/banner03.jpg" class="d-block w-100" alt="...">
+                <img src="/img/01-layout/08-bootstrap/banner03.jpg" class="d-block w-100" alt="...">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -119,7 +119,7 @@
         <div class="row">
             <div class="col-lg-4 mb-5 mb-lg-0 w-100">
                 <div class="card">
-                    <img src="/img/01-layout/07-bootstrap/card01.jpg" class="card-img-top" alt="...">
+                    <img src="/img/01-layout/08-bootstrap/card01.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h3 class="card-title">蜘蛛人</h3>
                         <p class="card-text">蜘蛛人是漫威漫畫的超級英雄，本名為彼得·班傑明·帕克（Peter Benjamin Parker），漫威旗下最受歡迎的超級英雄。</p>
@@ -140,7 +140,7 @@
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        <img src="/img/01-layout/07-bootstrap/card01.jpg" class="card-img-top"
+                                        <img src="/img/01-layout/08-bootstrap/card01.jpg" class="card-img-top"
                                             alt="...">
                                     </div>
                                     <div class="modal-footer">
@@ -157,7 +157,7 @@
 
             <div class="col-lg-4 mb-5 mb-lg-0 w-100">
                 <div class="card">
-                    <img src="/img/01-layout/07-bootstrap/card02.jpg" class="card-img-top" alt="...">
+                    <img src="/img/01-layout/08-bootstrap/card02.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h3 class="card-title">美國隊長</h3>
                         <p class="card-text">美國隊長（英語：Captain America），本名為史蒂芬·羅傑斯（Steven Rogers），是出現在漫威漫畫中的虛構超級英雄。</p>
@@ -178,7 +178,7 @@
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        <img src="/img/01-layout/07-bootstrap/card02.jpg" class="card-img-top"
+                                        <img src="/img/01-layout/08-bootstrap/card02.jpg" class="card-img-top"
                                             alt="...">
                                     </div>
                                     <div class="modal-footer">
@@ -195,7 +195,7 @@
 
             <div class="col-lg-4 mb-5 mb-lg-0 w-100">
                 <div class="card">
-                    <img src="/img/01-layout/07-bootstrap/card03.jpg" class="card-img-top" alt="...">
+                    <img src="/img/01-layout/08-bootstrap/card03.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h3 class="card-title">浩克</h3>
                         <p class="card-text">浩克（英語：The Hulk），本名布魯斯·班納（Bruce Banner），在意外受自己製造出的伽瑪炸彈（Gamma
@@ -217,7 +217,7 @@
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        <img src="/img/01-layout/07-bootstrap/card03.jpg" class="card-img-top"
+                                        <img src="/img/01-layout/08-bootstrap/card03.jpg" class="card-img-top"
                                             alt="...">
                                     </div>
                                     <div class="modal-footer">
@@ -244,7 +244,7 @@
             <h1 class="text-center mb-3">索爾與洛基</h1>
             <div class="row no-gutters">
                 <div class="col-lg-6 ">
-                    <img src="/img/01-layout/07-bootstrap/Thor.jpg" alt="" width="100%">
+                    <img src="/img/01-layout/08-bootstrap/Thor.jpg" alt="" width="100%">
                 </div>
                 <div class="col-lg-6 d-flex mb-5 mb-lg-0 bgc_lightgray align-items-center bgc_lightgray">
                     <span class="text-justify">
@@ -252,7 +252,7 @@
                     </span>
                 </div>
                 <div class="col-lg-6  order-lg-1">
-                    <img src="/img/01-layout/07-bootstrap/Loki.jpg" alt="" width="100%">
+                    <img src="/img/01-layout/08-bootstrap/Loki.jpg" alt="" width="100%">
                 </div>
                 <div class="col-lg-6 d-flex align-items-center bgc_lightgray">
                     <span class="text-justify">

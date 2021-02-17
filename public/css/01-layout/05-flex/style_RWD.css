@@ -1,0 +1,378 @@
+    *{
+        box-sizing: border-box;
+    }
+    body,
+    html {
+        padding: 0;
+        margin: 0;
+    }
+    a{
+        text-decoration: none;
+        padding: 10px 60px;
+        display: block;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+        margin: 0 auto;
+        margin-top: 60px;
+        list-style: none;
+    }
+
+    li {
+        margin-bottom: 6px;
+        font-size: 24px;
+        text-align: center;
+
+        transition: 1s;
+        font-size: 40px;
+    }
+
+
+    li:hover{
+        background-color: royalblue;
+    }
+
+    .all {
+        width: 100%;
+        height: 100vh;
+        background-color: aqua;
+        display: flex;
+    }
+
+    .nav {
+        z-index: 1;
+        width: 366px;
+        height: 100%;
+        background-color: gray;
+    }
+
+    .logo-space {
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
+        margin-top: 75px;
+        display: flex;
+    }
+
+    .logo {
+        margin: auto;
+    }
+
+    .logoimg {
+        width: 150px;
+    }
+
+    a:link {
+        color: white;
+    }
+
+    a:visited {
+        color: black;
+    }
+    a:hover {
+        color: cyan;
+    }
+
+    a:active {
+        color: yellow;
+    }
+
+    .bg1 {
+        width: calc(100% - 366px);
+        height: 100%;
+        background-color: lightgreen;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-image: url('/img/01-layout/05-flex/2019-movie-Avengers-4-Endgame-Marvel-superheroes_5120x2880.jpg');
+        background-size: cover;
+        background-position: 50% 0%;
+    }
+
+    .block {
+        width: 957px;
+        height: 570px;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .box {
+        width: 315px;
+        height: 100%;
+        /* background-color: darkseagreen; */
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        transition: 0.3s;
+        opacity: 1;
+
+    }
+    .box:hover {
+        background-size: 600px;
+        opacity: 0.5;
+    }
+
+
+    .x {
+        background-image: url('/img/01-layout/05-flex/Infinity-War-poster-iron-spider.jpg');
+        background-size: 500px;
+        background-repeat: no-repeat;
+        background-position: 50% 5%;
+    }
+
+    .y {
+        background-image: url('/img/01-layout/05-flex/wallpapersden.com_iron-man-in-avengers-endgame_3547x5000.jpg');
+        background-size: 500px;
+        background-repeat: no-repeat;
+        background-position: 50% 10%;
+
+    }
+
+    .z {
+        background-image: url('/img/01-layout/05-flex/wallpapersden.com_captain-america-in-avengers-endgame_3547x5000.jpg');
+        background-size: 500px;
+        background-repeat: no-repeat;
+        background-position: 50% 10%;
+    }
+
+    .name {
+        position: relative;
+        top: calc(50% - 58.5px);
+    }
+
+
+@media (max-width:1335px){
+    .block {
+        width: 800px;
+        height: 570px;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+
+    .x {
+        width: 100%;
+        height: 285px;
+
+    }
+    .y,.z {
+        width: 395px;
+        height: 275px;
+
+    }
+    .box:hover {
+        background-size: 1000px;
+    }
+    .y:hover,.z:hover {
+        background-size: 600px;
+    }
+
+    .x {
+        background-size: 800px;
+        background-position: 60% 6%;
+    }
+
+    .y {
+        background-size: 500px;
+        background-position: 60% 0%;
+    }
+
+    .z {
+        background-size: 500px;
+        background-position: 50% 0%;
+    }
+    .name {
+        top: calc(50% - 29px);
+    }
+
+}
+
+@media (max-width:1175px){
+    body,
+    ul {
+        margin: 0;
+        display: flex;
+    }
+    a{
+        padding: 30px 20px;
+    }
+    ul{
+        height: 100%;
+    }
+
+    li {
+        margin:auto;
+        font-size: 24px;
+    }
+
+    .all {
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+    }
+
+    .nav {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo-space {
+        width: 80px;
+        height: 80px;
+        margin-top: 10px;
+        margin-left: 34px;
+    }
+
+
+    .logoimg {
+        width: 80px;
+    }
+
+    .bg1 {
+        width: 100%;
+    }
+
+    .block {
+        width: 90%;
+        height: 90%;
+        flex-wrap: wrap;
+    }
+
+    .x {
+        width: 100%;
+        height: 50%;
+
+    }
+    .y,.z {
+        width: 50%;
+        height: 50%;
+    }
+    .box:hover {
+        background-size: 1300px;
+    }
+    .y:hover,.z:hover {
+        background-size: 900px;
+    }
+
+    .x {
+        background-size: 1200px;
+        background-position: 50% 5%;
+    }
+    .y {
+        background-size: 800px;
+        background-position: 50% 10%;
+    }
+    .z {
+        background-size: 800px;
+        background-position: 50% 10%;
+    }
+
+}
+
+@media (max-width:375px){
+
+    ul {
+        margin-top: 70px;
+    }
+
+    li {
+        display: block;
+        font-size: 20px;
+        margin: 0;
+        padding: 5px 10px;
+        transition: 1s;
+    }
+
+    a{
+        padding: 10px 60px;
+        font-size: 10px;
+    }
+
+    .all {
+        min-width: 375px;
+        flex-direction:column;
+    }
+
+    .nav {
+        height: 80px;
+    }
+
+    .logo-space {
+        width: 54px;
+        height: 54px;
+        margin: 0;
+        position: relative;
+        top:calc(50% - 27px);
+        left:calc(50% - 27px);
+    }
+
+
+    .logoimg {
+        width: 54px;
+    }
+
+    .bg1 {
+        height: 100%;
+    }
+
+    .block {
+        width: 100%;
+        height: 100%;
+    }
+
+    .box {
+        width: 100%;
+        height: 33.33%;
+    }
+
+    .x {
+        background-size: 400px;
+        background-position: 60% 6%;
+    }
+    .x:hover {
+        background-size: 500px;
+    }
+
+    .y {
+        background-position: 50% 10%;
+    }
+
+    .z {
+        background-position: 50% 10%;
+    }
+
+    .menu{
+        width: 40px;
+        height: 50px;
+        margin: 10px;
+        background-color: black;
+        position: absolute;
+    }
+    .menu ul{
+        display: table;
+        width: 200px;
+        background-color: white;
+
+        position: absolute;
+        top: -6px;
+        left: -260px;
+
+        transition: 1s;
+        opacity: 0;
+    }
+
+    .menu:hover{
+        background-color: white;
+    }
+
+    .menu:hover ul {
+        left: -10px;
+        opacity: 1;
+    }
+
+ }
