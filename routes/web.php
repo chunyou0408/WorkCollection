@@ -132,7 +132,7 @@ Route::prefix('/02-JavaScript')->group(function () {
     });
     //04-Tabs分頁
     Route::get('/tabs', function () {
-        return view('front.02-JavaScript.04-Tabs.Tabs');
+        return view('front.02-JavaScript.04-tabs.tabs');
     });
     //05-食物選擇器
     Route::get('/foodstuff', function () {
