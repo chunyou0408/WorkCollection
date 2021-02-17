@@ -148,7 +148,7 @@ Route::prefix('/02-JavaScript')->group(function () {
     });
     //08-Bootstrap排版練習
     Route::get('/Bootstrap', function () {
-        return view('front.02-JavaScript.08-Bootstrap.Bootstrap');
+        return view('front.02-JavaScript.08-bootstrap.bootstrap');
     });
 });
 

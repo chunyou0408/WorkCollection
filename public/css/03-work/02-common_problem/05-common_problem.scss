@@ -14,10 +14,10 @@ main{
         margin: 0;
         @media (max-width: 767px){
             padding-bottom: 50px;
-        }  
+        }
         @media (max-width: 500px){
             padding-bottom: 30px;
-        }  
+        }
     }
 
     a{
@@ -26,7 +26,7 @@ main{
         letter-spacing: 2px;
 
         color: #033695;
-        
+
         &:hover{
             color: red;
         }
@@ -44,7 +44,7 @@ main{
     }
 
     li{
-        
+
         padding: 20px;
 
         list-style-type :none;
@@ -68,20 +68,20 @@ main{
 
             .modal-content{
                 background-color: #014387;
-                background-image: url('../img/05/waves.png');
+                background-image: url('/img/03-work/05/waves.png');
                 background-size: 100%;
                 background-position: bottom;
                 background-repeat: no-repeat;
-    
+
                 padding:30px 103px 100px 103px;
-                
+
                 color: white;
                 font-size: 36px;
                 letter-spacing:3px;
-    
+
                 border: 10px solid white;
                 border-radius: 25px;
-    
+
 
                 @media (max-width: 991px){
                     font-size: 24px;
@@ -103,7 +103,7 @@ main{
                     margin: auto;
                 }
 
-    
+
                 @media (max-width: 1429px){
                     & {
                         padding:10px 40px;
@@ -118,8 +118,8 @@ main{
                     }
 
                 }
-    
-            }           
+
+            }
 
         }
 
