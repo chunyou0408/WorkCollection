@@ -127,7 +127,7 @@
                 <img src="/img/測試圖片.jpg" class="card-img-top" alt="..." width="100%">
             </a>
             <div class="card-body">
-                <p class="card-text">個人網站重新切版</p>
+                <p class="card-text">個人網站重新切版(施工中)</p>
             </div>
         </div>
 
