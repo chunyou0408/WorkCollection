@@ -134,7 +134,7 @@ body {
         .btnbox {
             display: none;
             @media (max-width: 767px) {
-                background-image: url("/img/09-work/Hamburger_icon.svg.png");
+                background-image: url("/img/01-layout/09-work/Hamburger_icon.svg.png");
                 background-size: cover;
                 display: block;
                 width: 38px;
@@ -142,7 +142,7 @@ body {
                 float: right;
 
                 &.active {
-                    background-image: url("/img/09-work/x.png");
+                    background-image: url("/img/01-layout/09-work/x.png");
                 }
             }
         }
