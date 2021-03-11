@@ -120,6 +120,11 @@ Route::prefix('/01-layout')->group(function () {
     Route::get('/Bootstrap', function () {
         return view('front.01-layout.08-bootstrap.bootstrap');
     });
+
+    //09-個人網站重新切版
+    Route::get('/work', function () {
+        return view('front.01-layout.09-work.index');
+    });
 });
 
 
