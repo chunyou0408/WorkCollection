@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body onload="opening()">
@@ -61,7 +61,7 @@
                     </div>
                     <div class="col-md-5 d-none d-lg-block">
                         <div class="imgbox">
-                            <img src="./img/PLOY-210312.jpg" alt="">
+                            <img src="/img/PLOY-210312.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -72,7 +72,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-5 photoimg">
-                        <img src="./img/2020-11-06-Pen Tool_210312.png" alt="">
+                        <img src="/img/2020-11-06-Pen Tool_210312.png" alt="">
                     </div>
                     <div class="col-12 col-md-7 text">
                         <h1>關於我</h1>
@@ -151,21 +151,21 @@
                 <!-- 顯示卡片 -->
                 <div class="row">
                     <div class="card col-12 col-md-6 col-lg-4 active layout">
-                        <img src="./img/01.png" class="card-img-top" alt="...">
+                        <img src="/img/01.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">微軟切版</h5>
                             <p class="card-text">課後練習題目</p>
                         </div>
                     </div>
                     <div class="card col-12 col-md-6 col-lg-4 active layout">
-                        <img src="./img/02.png" class="card-img-top" alt="...">
+                        <img src="/img/02.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">首頁切版</h5>
                             <p class="card-text">點選圖片，會將圖片展開</p>
                         </div>
                     </div>
                     <div class="card col-12 col-md-6 col-lg-4 active JavaScript">
-                        <img src="./img/03.png" class="card-img-top" alt="...">
+                        <img src="/img/03.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">天氣卡片API</h5>
                             <p class="card-text">課後練習題目,利用中央氣象局提供的資訊,顯示到畫面上
@@ -173,21 +173,21 @@
                         </div>
                     </div>
                     <div class="card col-12 col-md-6 col-lg-4 active JavaScript">
-                        <img src="./img/04.png" class="card-img-top" alt="...">
+                        <img src="/img/04.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">家具存貨系統-filter</h5>
                             <p class="card-text">課後練習題目,利用伺服器回傳的資料,顯示到畫面上</p>
                         </div>
                     </div>
                     <div class="card col-12 col-md-6 col-lg-4 active work">
-                        <img src="./img/05.png" class="card-img-top" alt="...">
+                        <img src="/img/05.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">常見問題</h5>
                             <p class="card-text">到工作室的練習切版</p>
                         </div>
                     </div>
                     <div class="card col-12 col-md-6 col-lg-4 active work">
-                        <img src="./img/06.png" class="card-img-top" alt="...">
+                        <img src="/img/06.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">聯絡我們</h5>
                             <p class="card-text">到工作室的練習切版</p>
