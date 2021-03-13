@@ -56,6 +56,9 @@ Route::prefix('/01-layout')->group(function () {
         Route::get('/05', function () {
             return view('front.01-layout.01-float.05_float');
         });
+        Route::get('/test', function () {
+            return view('front.01-layout.index');
+        });
     });
 
 
