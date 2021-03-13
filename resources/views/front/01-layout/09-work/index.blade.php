@@ -237,7 +237,7 @@
                     <div class="col-md-6">
                         <h4 class="resume_title"><i class="fas fa-briefcase"></i>工作</h4>
                         <div class="single_resume" data-aos="fade-left">
-                            <span class="resume_duration">2009年9月-2013年7月</span>
+                            <span class="resume_duration"></span>
                             <h3>直播小幫手</h3>
                             <span class="resume-designation">全球藝品拍賣場</span>
                             <p>
@@ -247,7 +247,7 @@
                             </p>
                         </div>
                         <div class="single_resume" data-aos="fade-left">
-                            <span class="resume_duration">2009年9月-2013年7月</span>
+                            <span class="resume_duration"></span>
                             <h3>網拍人員</h3>
                             <span class="resume-designation">水晶藝品店</span>
                             <p>
