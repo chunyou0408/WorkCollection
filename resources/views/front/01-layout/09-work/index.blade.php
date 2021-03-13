@@ -215,7 +215,15 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <h4 class="resume_title"><i class="fas fa-book"></i>教育</h4>
+                        <h4 class="resume_title"><i class="fas fa-book"></i>學習</h4>
+                        <div class="single_resume" data-aos="fade-right">
+                            <span class="resume_duration">2020年11月-2021年1月</span>
+                            <h3>全端工程師-跨平台程式開發實戰班</h3>
+                            <span class="resume-designation">勞動部勞動力發展署</span>
+                            <p>
+                                從短短的三個月學習了全端的網頁設計，第一個月學習PS、AI，學了很多關於設計類的技能，剩下的時間都是學習網頁前、後端與專案製作，覺得自己對於網頁的前端與後端都有興趣，前端的部分想要學框架（如 Vue.js / Angular / React 等），後端想學習的是 Golang / Python，依照之後工作需求來學習技能。
+                            </p>
+                        </div>
                         <div class="single_resume" data-aos="fade-right">
                             <span class="resume_duration">2009年9月-2013年7月</span>
                             <h3>資訊網路技術系</h3>
@@ -237,7 +245,15 @@
                     <div class="col-md-6">
                         <h4 class="resume_title"><i class="fas fa-briefcase"></i>工作</h4>
                         <div class="single_resume" data-aos="fade-left">
-                            <span class="resume_duration"></span>
+                            <span class="resume_duration">2020年5月-2019年7月</span>
+                            <h3>油品業務助理</h3>
+                            <span class="resume-designation">合茂人力派遣股份有限公司</span>
+                            <p>
+                                上班地點在經濟部標準檢驗局(台中分局)，每天外出採驗加油站油品，規劃每天行程與資料統整上傳，讓我學到很多有關於油品的相關知識。
+                            </p>
+                        </div>
+                        <div class="single_resume" data-aos="fade-left">
+                            <span class="resume_duration">2016年9月-2019年6月</span>
                             <h3>直播小幫手</h3>
                             <span class="resume-designation">全球藝品拍賣場</span>
                             <p>
@@ -247,7 +263,7 @@
                             </p>
                         </div>
                         <div class="single_resume" data-aos="fade-left">
-                            <span class="resume_duration"></span>
+                            <span class="resume_duration">2014年8月-2016年6月</span>
                             <h3>網拍人員</h3>
                             <span class="resume-designation">水晶藝品店</span>
                             <p>
