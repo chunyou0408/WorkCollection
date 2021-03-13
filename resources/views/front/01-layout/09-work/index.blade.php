@@ -61,7 +61,7 @@
                     </div>
                     <div class="col-md-5 d-none d-lg-block">
                         <div class="imgbox">
-                            <img src="/img/PLOY-210312.jpg" alt="">
+                            <img src="/img/01-layout/09-work/PLOY-210312.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -72,7 +72,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-5 photoimg">
-                        <img src="/img/2020-11-06-Pen Tool_210312.png" alt="">
+                        <img src="/img/01-layout/09-work/2020-11-06-Pen Tool_210312.png" alt="">
                     </div>
                     <div class="col-12 col-md-7 text">
                         <h1>關於我</h1>
