@@ -25,7 +25,7 @@ Route::get('/', function () {
 
     // return view('welcome');
 
-    return redirect('/01-layout');
+    return view('front.00-index.00-index');
 });
 
 
