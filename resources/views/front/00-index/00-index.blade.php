@@ -27,7 +27,7 @@
                 <div class="row">
                     <div class="col-6 col-md-4">
                         <div class="logo_area">
-                            <a href="index.html">許淳祐個人網站</a>
+                            <a class="topcontrol" href="#">許淳祐個人網站</a>
                         </div>
                     </div>
 
@@ -319,10 +319,16 @@
                 </div>
             </div>
         </section>
+
+        <!-- 回到最頂端 -->
+        <div id="topcontrol" class="topcontrol" title=""
+            style="position: fixed; bottom: 10px; right: 10px; opacity: 1;
+            cursor: pointer;">
+            <i class="fa fa-angle-up scrolltop"></i></div>
+
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
         <script>
-
             // 讀取畫面
             var myVar;
 
@@ -461,8 +467,16 @@
 
                 }
             });
-        //
+            //
 
+            //回到最上方
+            let topcontrols = document.querySelectorAll('.topcontrol');
+            topcontrols.forEach(topcontrol => {
+                topcontrol.addEventListener("click", (() => {
+                    window.scrollTo(0, 0);
+                }));
+            });
+            //
 
 
         </script>
