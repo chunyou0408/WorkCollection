@@ -153,7 +153,9 @@
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card active layout">
                             <div class="card-img">
-                                <img src="/img/00-index/01.png" class="card-img-top" alt="...">
+                                <a href="/01-layout/microsoft">
+                                    <img src="/img/00-index/01.png" class="card-img-top" alt="...">
+                                </a>
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">微軟切版</h5>
@@ -164,7 +166,9 @@
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card active layout">
                             <div class="card-img">
-                                <img src="/img/00-index/02.png" class="card-img-top" alt="...">
+                                <a href="/01-layout/RWD">
+                                    <img src="/img/00-index/02.png" class="card-img-top" alt="...">
+                                </a>
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">首頁切版</h5>
@@ -175,7 +179,9 @@
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card active JavaScript">
                             <div class="card-img">
-                                <img src="/img/00-index/03.png" class="card-img-top" alt="...">
+                                <a href="/02-JavaScript/weatherAPI">
+                                    <img src="/img/00-index/03.png" class="card-img-top" alt="...">
+                                </a>
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">天氣卡片API</h5>
@@ -187,7 +193,9 @@
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card active JavaScript">
                             <div class="card-img">
-                                <img src="/img/00-index/04.png" class="card-img-top" alt="...">
+                                <a href="/02-JavaScript/furniture">
+                                    <img src="/img/00-index/04.png" class="card-img-top" alt="...">
+                                </a>
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">家具存貨系統-filter</h5>
@@ -199,7 +207,9 @@
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card active work">
                             <div class="card-img">
-                                <img src="/img/00-index/05.png" class="card-img-top" alt="...">
+                                <a href="/03-work/02-common_problem">
+                                    <img src="/img/00-index/05.png" class="card-img-top" alt="...">
+                                </a>
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">常見問題</h5>
@@ -210,7 +220,9 @@
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card active work">
                             <div class="card-img">
-                                <img src="/img/00-index/06.png" class="card-img-top" alt="...">
+                                <a href="/03-work/03-contact_us">
+                                    <img src="/img/00-index/06.png" class="card-img-top" alt="...">
+                                </a>
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">聯絡我們</h5>
@@ -321,8 +333,7 @@
         </section>
 
         <!-- 回到最頂端 -->
-        <div id="topcontrol" class="topcontrol" title=""
-            style="position: fixed; bottom: 10px; right: 10px; opacity: 1;
+        <div id="topcontrol" class="topcontrol" title="" style="position: fixed; bottom: 10px; right: 10px; opacity: 1;
             cursor: pointer;">
             <i class="fa fa-angle-up scrolltop"></i></div>
 

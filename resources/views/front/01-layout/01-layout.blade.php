@@ -130,9 +130,6 @@
                 <p class="card-text">切版練習</p>
             </div>
         </div>
-
-
-
     </div>
 </div>
 @endsection
