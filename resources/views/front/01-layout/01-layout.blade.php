@@ -123,7 +123,7 @@
             <div class="card-header">
                 <h2>首頁切版練習<h2>
             </div>
-            <a href="/01-layout/work" target="_blank" class="hvr-pop">
+            <a href="/01-layout/RWD" target="_blank" class="hvr-pop">
                 <img src="/img/00-index/02.png" class="card-img-top" alt="..." width="100%">
             </a>
             <div class="card-body">
