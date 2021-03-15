@@ -27,17 +27,17 @@
                 <div class="row">
                     <div class="col-6 col-md-4">
                         <div class="logo_area">
-                            <a href="index.html">許淳祐個人網站</a>
+                            <a href="">許淳祐個人網站</a>
                         </div>
                     </div>
 
                     <div class="col-6 col-md-8 menu_wrap">
                         <nav id="navigation" class="navbar-right">
                             <ul id="nav" class="nav navbar-nav">
-                                <li><a href="index.html" style="--i:1;">首頁</a></li>
+                                <li><a href="" style="--i:1;">首頁</a></li>
                                 <li class="current"><a href="#skill_area" style="--i:2;">技能</a></li>
-                                <li class=""><a href="#work_area" style="--i:3;">作品集</a></li>
-                                <li class=""><a href="#resume_area" style="--i:4;">履歷</a></li>
+                                <li><a href="#work_area" style="--i:3;">作品集</a></li>
+                                <li><a href="#resume_area" style="--i:4;">履歷</a></li>
                                 <li><a href="#testimonial_area" style="--i:5;">見證者</a></li>
                                 <li><a href="#contact_area" style="--i:6;">聯絡方式</a></li>
                             </ul>
