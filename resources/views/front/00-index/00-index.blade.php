@@ -153,7 +153,7 @@
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card active layout">
                             <div class="card-img">
-                                <a href="/01-layout/microsoft">
+                                <a href="/01-layout/microsoft" target="_blank">
                                     <img src="/img/00-index/01.png" class="card-img-top" alt="...">
                                 </a>
                             </div>
@@ -166,7 +166,7 @@
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card active layout">
                             <div class="card-img">
-                                <a href="/01-layout/RWD">
+                                <a href="/01-layout/RWD" target="_blank">
                                     <img src="/img/00-index/02.png" class="card-img-top" alt="...">
                                 </a>
                             </div>
@@ -179,7 +179,7 @@
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card active JavaScript">
                             <div class="card-img">
-                                <a href="/02-JavaScript/weatherAPI">
+                                <a href="/02-JavaScript/weatherAPI" target="_blank">
                                     <img src="/img/00-index/03.png" class="card-img-top" alt="...">
                                 </a>
                             </div>
@@ -193,7 +193,7 @@
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card active JavaScript">
                             <div class="card-img">
-                                <a href="/02-JavaScript/furniture">
+                                <a href="/02-JavaScript/furniture" target="_blank">
                                     <img src="/img/00-index/04.png" class="card-img-top" alt="...">
                                 </a>
                             </div>
@@ -207,7 +207,7 @@
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card active work">
                             <div class="card-img">
-                                <a href="/03-work/02-common_problem">
+                                <a href="/03-work/02-common_problem" target="_blank">
                                     <img src="/img/00-index/05.png" class="card-img-top" alt="...">
                                 </a>
                             </div>
@@ -220,7 +220,7 @@
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card active work">
                             <div class="card-img">
-                                <a href="/03-work/03-contact_us">
+                                <a href="/03-work/03-contact_us" target="_blank">
                                     <img src="/img/00-index/06.png" class="card-img-top" alt="...">
                                 </a>
                             </div>
