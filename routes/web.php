@@ -123,7 +123,7 @@ Route::prefix('/01-layout')->group(function () {
 
     //09-切版練習RWD
     Route::get('/RWD', function () {
-        return view('front.01-layout.09-RWD.index');
+        return view('front.01-layout.09-RWD.RWD');
     });
 });
 
