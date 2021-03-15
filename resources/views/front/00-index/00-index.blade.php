@@ -224,7 +224,7 @@
                 </div>
                 <!-- 查看更多作品集 -->
                 <div class="row" style="margin-top: 30px;">
-                    <button class="btn btn-primary offset-4 col-4">查看更多</button>
+                    <button onclick="location.href='/01-layout'" class="btn btn-primary offset-4 col-4">查看更多</button>
                 </div>
             </div>
         </section>
