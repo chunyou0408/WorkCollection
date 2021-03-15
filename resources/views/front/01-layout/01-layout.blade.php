@@ -121,13 +121,13 @@
 
         <div class="card col-12 col-md-6 col-lg-4" data-aos="fade-right">
             <div class="card-header">
-                <h2>個人網站重新切版<h2>
+                <h2>首頁切版練習<h2>
             </div>
             <a href="/01-layout/work" target="_blank" class="hvr-pop">
-                <img src="/img/測試圖片.jpg" class="card-img-top" alt="..." width="100%">
+                <img src="/img/00-index/02.png" class="card-img-top" alt="..." width="100%">
             </a>
             <div class="card-body">
-                <p class="card-text">個人網站重新切版(施工中)</p>
+                <p class="card-text">切版練習</p>
             </div>
         </div>
 

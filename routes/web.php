@@ -121,9 +121,9 @@ Route::prefix('/01-layout')->group(function () {
         return view('front.01-layout.08-bootstrap.bootstrap');
     });
 
-    //09-個人網站重新切版
-    Route::get('/work', function () {
-        return view('front.01-layout.09-work.index');
+    //09-切版練習RWD
+    Route::get('/RWD', function () {
+        return view('front.01-layout.09-RWD.index');
     });
 });
 
