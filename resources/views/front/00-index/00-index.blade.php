@@ -34,7 +34,7 @@
                     <div class="col-6 col-md-8 menu_wrap">
                         <nav id="navigation" class="navbar-right">
                             <ul id="nav" class="nav navbar-nav">
-                                <li><a href="index.html" style="--i:1;">首頁</a></li>
+                                <li><a href="http://chunyouhsu.herokuapp.com/" style="--i:1;">首頁</a></li>
                                 <li class="current"><a href="#skill_area" style="--i:2;">技能</a></li>
                                 <li class=""><a href="#work_area" style="--i:3;">作品集</a></li>
                                 <li class=""><a href="#resume_area" style="--i:4;">履歷</a></li>
