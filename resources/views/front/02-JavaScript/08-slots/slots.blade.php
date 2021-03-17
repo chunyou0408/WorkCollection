@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>slots</title>
     <style>
         * {
             box-sizing: border-box;
@@ -55,7 +55,6 @@
             background-color: lime;
 
             transform: translateY(-100%);
-
         }
 
         .imgBox {
@@ -63,15 +62,12 @@
             height: 33.33333%;
             border: 1px solid black;
             overflow: hidden;
-
         }
 
         .imgBox img {
             width: 100%;
             height: 100%;
             object-fit: cover;
-
-
         }
 
         .box.active {
@@ -85,12 +81,10 @@
         @keyframes slideDown {
             0% {
                 transform: translateY(0%);
-
             }
 
             100% {
                 transform: translateY(100%);
-
             }
         }
 

@@ -36,7 +36,7 @@
         <div class="navbar">
             <div class="left-side">
                 <h2 class="logo">
-                    許淳祐的作品集
+                    <a href="http://chunyouhsu.herokuapp.com/">許淳祐的作品集</a>
                 </h2>
             </div>
             <div class="right-side">
