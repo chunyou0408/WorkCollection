@@ -353,20 +353,20 @@
                 if (A_times + 1 == times) {
                     //第一列最後出現的圖案
                     let last = lastImgArray[index];
-                    img.src =8`slotsvaScript/07-weatherAPI/img0${last}.png`
+                    img.src = `/img/02-JavaScript/08-slots/img0${last}.png`
                 }
                 else {
                     let random = Math.floor(Math.random() * 9) + 1;
-                    img.sr8 slots-JavaScript/07-weatherAPI/img0${random}.png`
+                    img.src = `/img/02-JavaScript/08-slots/img0${random}.png`
                 }
             } else {
                 if (A_times == times) {
                     //除了第一列最後出現的圖案
                     let last = lastImgArray[(e.target.dataset.i * 3) + index];
-                    img.src =8`slotsvaScript/07-weatherAPI/img0${last}.png`
+                    img.src = `/img/02-JavaScript/08-slots/img0${last}.png`
                 } else {
                     let random = Math.floor(Math.random() * 9) + 1;
-                    img.sr8 slots-JavaScript/07-weatherAPI/img0${random}.png`
+                    img.src = `/img/02-JavaScript/08-slots/img0${random}.png`
                 }
             }
         })
@@ -389,12 +389,12 @@
         if (img == 'ALL') {
             document.querySelectorAll('img').forEach(img => {
                 let random = Math.floor(Math.random() * 9) + 1;
-                img.src = 8/slotsaScript/07-weatherAPI/img0${random}.png`
+                img.src = `/img/02-JavaScript/08-slots/img0${random}.png`
             })
         } else {
             document.querySelectorAll('.imgBx1 img').forEach(img => {
                 let random = Math.floor(Math.random() * 9) + 1;
-                img.src = 8/slotsaScript/07-weatherAPI/img0${random}.png`
+                img.src = `/img/02-JavaScript/08-slots/img0${random}.png`
             })
         }
 
