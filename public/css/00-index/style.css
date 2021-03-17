@@ -90,7 +90,7 @@ html {
   top: 0;
   background-color: white;
   width: 100%;
-  padding: 30px 0;
+  padding: 25px 0;
   z-index: 1000;
 }
 
@@ -228,7 +228,14 @@ html {
 }
 
 #home_banner_area .container .row .slider_content h1 {
+  font-size: 2.5em;
   font-weight: bold;
+}
+
+@media (max-width: 520px) {
+  #home_banner_area .container .row .slider_content h1 {
+    font-size: 2em;
+  }
 }
 
 #home_banner_area .container .row .slider_content h1:first-child {

@@ -91,7 +91,7 @@ html {
     background-color: white;
 
     width: 100%;
-    padding: 30px 0;
+    padding: 25px 0;
     z-index: 1000;
     a {
         color: black;
@@ -197,7 +197,11 @@ html {
                     padding: 70% 0 10%;
                 }
                 h1 {
+                    font-size: 2.5em;
                     font-weight: bold;
+                    @media (max-width: 520px) {
+                        font-size: 2em;
+                    }
                     &:first-child {
                         color: lightskyblue;
                     }
