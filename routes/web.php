@@ -161,6 +161,10 @@ Route::prefix('/02-JavaScript')->group(function () {
     Route::get('/weatherAPI', function () {
         return view('front.02-JavaScript.07-weatherAPI.weatherAPI');
     });
+    //08-拉霸遊戲
+    Route::get('/slots', function () {
+        return view('front.02-JavaScript.08-slots.slots');
+    });
 });
 
 //實務經驗

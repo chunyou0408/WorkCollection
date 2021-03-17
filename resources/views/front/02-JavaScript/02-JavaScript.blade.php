@@ -103,7 +103,18 @@
             </div>
         </div>
 
-       
+        <div class="card col-12 col-md-6 col-lg-4" data-aos="fade-up">
+            <div class="card-header">
+                <h2>拉霸<h2>
+            </div>
+            <a href="/02-JavaScript/slots" target="_blank" class="hvr-bob">
+                <img src="/img/02-JavaScript/08-slots/01.png" class="card-img-top" alt="..." width="100%">
+            </a>
+            <div class="card-body">
+                <p class="card-text">練習</p>
+            </div>
+        </div>
+
 
 
     </div>
